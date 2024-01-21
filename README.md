@@ -7,15 +7,19 @@ EDA revealed a skewed sales distribution, indicating most days have moderate sal
 Seasonal trends are evident in sales, with specific times of the year showing higher sales, likely due to seasonal factors or holidays.
 Variations in sales were observed among different stores and items, suggesting factors like location, store size, inventory, and item popularity influence sales figures.
 Correlation analysis showed low direct correlation between store numbers, item numbers, and sales figures, suggesting more complex underlying factors.
+
 Building a Forecasting Model:
 
 The initial plan was to use the fbprophet library for forecasting, ideal for handling seasonal data.
 Data preparation steps included aggregating sales data to daily totals and formatting it for Prophet with ds (date) and y (sales) columns.
 Due to environmental constraints, the actual implementation of the Prophet model couldn't be demonstrated.
 The steps to build and use the Prophet model include data preparation, initializing and training the model, making future predictions, evaluating the model, and visualizing the forecast.
+
 Issues Encountered:
 
 An error was encountered while trying to use the fbprophet library, likely due to incorrect import statements or Python environment issues. The correct import statement for Prophet is from fbprophet import Prophet.
+
+
 Conclusion:
 
 The sales data analysis provided valuable insights into sales patterns, highlighting the importance of seasonal trends and store/item-specific factors.
