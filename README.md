@@ -1,4 +1,4 @@
-sales data analysis and forecasting model:
+#Sales data analysis and forecasting model:
 
 Exploratory Data Analysis (EDA):
 
